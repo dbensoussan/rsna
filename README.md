@@ -21,3 +21,14 @@ The python files:
 - filter_images: generates a csv file containing only the non-empty image ids, for the training phase
 - util: contains several functions to load and save a PyTorch model, create the submission file and split the training data between train and validation files
 - xception: source code of the Xception model as defined in https://arxiv.org/pdf/1610.02357.pdf
+
+Please note that the project also contains folders not pushed in the repo, structured as follows:
+- root
+  - data
+    - filters
+    - images
+      - stage_1_test_images_jpg
+      - stage_1_train_images_jpg
+    - labels
+  - models
+  - submissions

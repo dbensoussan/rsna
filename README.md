@@ -1,8 +1,8 @@
 # RSNA Intracranial Hemorrhage Detection
 Kaggle competition started September 2019 - https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/overview
 
-We used PyTorch and image augmentation to train a CNN to detect hemorrhages from images of brains.
-The approach is to use **transfer learning**, that is using a pretrained CNN with its weights and only optimizing the final layer to adapt the network to our needs.
+PyTorch and image augmentation are used to train a CNN to detect hemorrhages from images of brains.
+The approach is to use **transfer learning**, starting from a pretrained CNN on a dataset like MNIST, then resetting and optimizing the final layer to adapt the network to our needs.
 
 The image dataset used is a compressed version of the original data from Kaggle and can be found here: https://www.kaggle.com/backaggle/rsna_512
 
